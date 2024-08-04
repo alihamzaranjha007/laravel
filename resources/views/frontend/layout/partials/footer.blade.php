@@ -7,7 +7,7 @@
                             <div class="row g-4">
                                 <div class="col-md-6 col-lg-6 col-xl-5">
                                     <div class="footer-item">
-                                        <a href="index.html" class="p-0">
+                                        <a href="{{url('/')}}" class="p-0">
                                             <h3 class="text-white"><i class="fab fa-slack me-3"></i> LifeSure</h3>
                                             <!-- <img src="img/logo.png" alt="Logo"> -->
                                         </a>
@@ -37,49 +37,49 @@
                                         <div class="row g-3">
                                             <div class="col-4">
                                                 <div class="footer-instagram rounded">
-                                                    <img src="img/instagram-footer-1.jpg" class="img-fluid w-100" alt="">
+                                                    <img src="{{ asset('assets/frontend/img/instagram-footer-1.jpg')}}" class="img-fluid w-100" alt="">
                                                     <div class="footer-search-icon">
-                                                        <a href="img/instagram-footer-1.jpg" data-lightbox="footerInstagram-1" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                        <a href="{{ asset('assets/frontend/img/instagram-footer-1.jpg')}}" data-lightbox="footerInstagram-1" class="my-auto"><i class="fas fa-link text-white"></i></a>
                                                     </div>
                                                 </div>
                                            </div>
                                            <div class="col-4">
                                                 <div class="footer-instagram rounded">
-                                                    <img src="img/instagram-footer-2.jpg" class="img-fluid w-100" alt="">
+                                                    <img src="{{ asset('assets/frontend/img/instagram-footer-2.jpg')}}" class="img-fluid w-100" alt="">
                                                     <div class="footer-search-icon">
-                                                        <a href="img/instagram-footer-2.jpg" data-lightbox="footerInstagram-2" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                        <a href="{{ asset('assets/frontend/img/instagram-footer-2.jpg')}}" data-lightbox="footerInstagram-2" class="my-auto"><i class="fas fa-link text-white"></i></a>
                                                     </div>
                                                 </div>
                                            </div>
                                             <div class="col-4">
                                                 <div class="footer-instagram rounded">
-                                                    <img src="img/instagram-footer-3.jpg" class="img-fluid w-100" alt="">
+                                                    <img src="{{ asset('assets/frontend/img/instagram-footer-3.jpg')}}" class="img-fluid w-100" alt="">
                                                     <div class="footer-search-icon">
-                                                        <a href="img/instagram-footer-3.jpg" data-lightbox="footerInstagram-3" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                        <a href="{{ asset('assets/frontend/img/instagram-footer-3.jpg')}}" data-lightbox="footerInstagram-3" class="my-auto"><i class="fas fa-link text-white"></i></a>
                                                     </div>
                                                 </div>
                                            </div>
                                             <div class="col-4">
                                                 <div class="footer-instagram rounded">
-                                                    <img src="img/instagram-footer-4.jpg" class="img-fluid w-100" alt="">
+                                                    <img src="{{ asset('assets/frontend/img/instagram-footer-4.jpg')}}" class="img-fluid w-100" alt="">
                                                     <div class="footer-search-icon">
-                                                        <a href="img/instagram-footer-4.jpg" data-lightbox="footerInstagram-4" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                        <a href="{{ asset('assets/frontend/img/instagram-footer-4.jpg')}}" data-lightbox="footerInstagram-4" class="my-auto"><i class="fas fa-link text-white"></i></a>
                                                     </div>
                                                 </div>
                                            </div>
                                             <div class="col-4">
                                                 <div class="footer-instagram rounded">
-                                                    <img src="img/instagram-footer-5.jpg" class="img-fluid w-100" alt="">
+                                                    <img src="{{ asset('assets/frontend/img/instagram-footer-5.jpg')}}" class="img-fluid w-100" alt="">
                                                     <div class="footer-search-icon">
-                                                        <a href="img/instagram-footer-5.jpg" data-lightbox="footerInstagram-5" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                        <a href="{{ asset('assets/frontend/img/instagram-footer-5.jpg')}}" data-lightbox="footerInstagram-5" class="my-auto"><i class="fas fa-link text-white"></i></a>
                                                     </div>
                                                 </div>
                                            </div>
                                            <div class="col-4">
                                                 <div class="footer-instagram rounded">
-                                                    <img src="img/instagram-footer-6.jpg" class="img-fluid w-100" alt="">
+                                                    <img src="{{ asset('assets/frontend/img/instagram-footer-6.jpg')}}" class="img-fluid w-100" alt="">
                                                     <div class="footer-search-icon">
-                                                        <a href="img/instagram-footer-6.jpg" data-lightbox="footerInstagram-6" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                        <a href="{{ asset('assets/frontend/img/instagram-footer-6.jpg')}}" data-lightbox="footerInstagram-6" class="my-auto"><i class="fas fa-link text-white"></i></a>
                                                     </div>
                                                 </div>
                                             </div>

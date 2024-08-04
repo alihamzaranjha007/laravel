@@ -1,8 +1,6 @@
-<meta charset="utf-8">
-        <title>LifeSure - Life Insurance Website Template</title>
+
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
+        
 
         <link rel="icon" href="{{ asset('assets/frontend/img/favicon.png')}}">
         <!-- Google Web Fonts -->

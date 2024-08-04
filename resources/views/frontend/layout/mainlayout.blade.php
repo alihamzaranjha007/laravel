@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta charset="utf-8">
+@yield('seocontent')
 @include('frontend.layout.partials.head')
 </head>
 <body>
