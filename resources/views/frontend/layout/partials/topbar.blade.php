@@ -20,7 +20,7 @@
                                 <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-instagram"></i></a>
                                 <a class="btn p-0 text-primary me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
                             </div>
-                            <div class="dropdown ms-3">
+                            <div class="dropdown ms-3 border-end border-primary pe-3">
                                 <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i class="fas fa-globe-europe text-primary me-2"></i> English</small></a>
                                 <div class="dropdown-menu rounded">
                                     <a href="#" class="dropdown-item">English</a>
@@ -28,6 +28,13 @@
                                     <a href="#" class="dropdown-item">French</a>
                                     <a href="#" class="dropdown-item">Spanish</a>
                                     <a href="#" class="dropdown-item">Arabic</a>
+                                </div>
+                            </div>
+                            <div class="dropdown ms-3">
+                                <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i class="fas fa-user text-primary me-2"></i> Login</small></a>
+                                <div class="dropdown-menu rounded">
+                                    <a href="{{url('login')}}" class="dropdown-item">Login</a>
+                                    <a href="#" class="dropdown-item">Register</a>
                                 </div>
                             </div>
                         </div>
