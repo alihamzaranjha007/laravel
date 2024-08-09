@@ -6,6 +6,7 @@
 @include('frontend.layout.partials.head')
 </head>
 <body>
+    {{-- {{dd(asset('/'))}} --}}
 @include('frontend.layout.partials.spinner')
 @include('frontend.layout.partials.topbar')
 @include('frontend.layout.partials.nav')

@@ -33,7 +33,7 @@
                             <div class="dropdown ms-3">
                                 <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i class="fas fa-user text-primary me-2"></i> Login</small></a>
                                 <div class="dropdown-menu rounded">
-                                    <a href="{{url('login')}}" class="dropdown-item">Login</a>
+                                    <a href="{{route('login.frontend')}}" class="dropdown-item">Login</a>
                                     <a href="#" class="dropdown-item">Register</a>
                                 </div>
                             </div>

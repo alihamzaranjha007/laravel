@@ -18,7 +18,7 @@
                                 <div class="text-sm-center text-md-start">
                                     <h4 class="text-white text-uppercase fw-bold mb-4">Welcome To LifeSure</h4>
                                     <h1 class="display-1 text-white mb-4">Life Insurance Makes You Happy</h1>
-                                    <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy... 
+                                    <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...
                                     </p>
                                     <div class="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
                                         <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Watch Video</a>
@@ -28,7 +28,7 @@
                             </div>
                             <div class="col-lg-5 animated fadeInRight">
                                 <div class="calrousel-img" style="object-fit: cover;">
-                                    <img src="{{ asset('assets/frontend/img/carousel-2.png')}}" class="img-fluid w-100" alt="">
+                                    <img src="{{ asset('public/assets/frontend/img/carousel-2.png')}}" class="img-fluid w-100" alt="">
                                 </div>
                             </div>
                         </div>
@@ -41,14 +41,14 @@
                         <div class="row gy-4 gy-lg-0 gx-0 gx-lg-5 align-items-center">
                             <div class="col-lg-5 animated fadeInLeft">
                                 <div class="calrousel-img">
-                                    <img src="{{ asset('assets/frontend/img/carousel-2.png')}}" class="img-fluid w-100" alt="">
+                                    <img src="{{ asset('public/assets/frontend/img/carousel-2.png')}}" class="img-fluid w-100" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-7 animated fadeInRight">
                                 <div class="text-sm-center text-md-end">
                                     <h4 class="text-white text-uppercase fw-bold mb-4">Welcome To LifeSure</h4>
                                     <h1 class="display-1 text-white mb-4">Life Insurance Makes You Happy</h1>
-                                    <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy... 
+                                    <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...
                                     </p>
                                     <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
                                         <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Watch Video</a>
@@ -145,7 +145,7 @@
                             <div class="row g-4 justify-content-center">
                                 <div class="col-12">
                                     <div class="rounded bg-light">
-                                        <img src="{{ asset('assets/frontend/img/about-1.png')}}" class="img-fluid rounded w-100" alt="">
+                                        <img src="{{ asset('public/assets/frontend/img/about-1.png')}}" class="img-fluid rounded w-100" alt="">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
@@ -205,7 +205,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="{{ asset('assets/frontend/img/blog-1.png')}}" class="img-fluid rounded-top w-100" alt="">
+                                <img src="{{ asset('public/assets/frontend/img/blog-1.png')}}" class="img-fluid rounded-top w-100" alt="">
                                 <div class="service-icon p-3">
                                     <i class="fa fa-users fa-2x"></i>
                                 </div>
@@ -222,7 +222,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="{{ asset('assets/frontend/img/blog-2.png')}}" class="img-fluid rounded-top w-100" alt="">
+                                <img src="{{ asset('public/assets/frontend/img/blog-2.png')}}" class="img-fluid rounded-top w-100" alt="">
                                 <div class="service-icon p-3">
                                     <i class="fa fa-hospital fa-2x"></i>
                                 </div>
@@ -239,7 +239,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="{{ asset('assets/frontend/img/blog-3.png')}}" class="img-fluid rounded-top w-100" alt="">
+                                <img src="{{ asset('public/assets/frontend/img/blog-3.png')}}" class="img-fluid rounded-top w-100" alt="">
                                 <div class="service-icon p-3">
                                     <i class="fa fa-car fa-2x"></i>
                                 </div>
@@ -256,7 +256,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="{{ asset('assets/frontend/img/blog-4.png')}}" class="img-fluid rounded-top w-100" alt="">
+                                <img src="{{ asset('public/assets/frontend/img/blog-4.png')}}" class="img-fluid rounded-top w-100" alt="">
                                 <div class="service-icon p-3">
                                     <i class="fa fa-home fa-2x"></i>
                                 </div>
@@ -329,7 +329,7 @@
                         </div>
                     </div>
                     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
-                        <img src="{{ asset('assets/frontend/img/carousel-2.png')}}" class="img-fluid w-100" alt="">
+                        <img src="{{ asset('public/assets/frontend/img/carousel-2.png')}}" class="img-fluid w-100" alt="">
                     </div>
                 </div>
             </div>
@@ -349,7 +349,7 @@
                     <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <img src="{{ asset('assets/frontend/img/blog-1.png')}}" class="img-fluid rounded-top w-100" alt="">
+                                <img src="{{ asset('public/assets/frontend/img/blog-1.png')}}" class="img-fluid rounded-top w-100" alt="">
                                 <div class="blog-categiry py-2 px-4">
                                     <span>Business</span>
                                 </div>
@@ -369,7 +369,7 @@
                     <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <img src="{{ asset('assets/frontend/img/blog-2.png')}}" class="img-fluid rounded-top w-100" alt="">
+                                <img src="{{ asset('public/assets/frontend/img/blog-2.png')}}" class="img-fluid rounded-top w-100" alt="">
                                 <div class="blog-categiry py-2 px-4">
                                     <span>Business</span>
                                 </div>
@@ -389,7 +389,7 @@
                     <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <img src="{{ asset('assets/frontend/img/blog-3.png')}}" class="img-fluid rounded-top w-100" alt="">
+                                <img src="{{ asset('public/assets/frontend/img/blog-3.png')}}" class="img-fluid rounded-top w-100" alt="">
                                 <div class="blog-categiry py-2 px-4">
                                     <span>Business</span>
                                 </div>
@@ -424,7 +424,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="{{ asset('assets/frontend/img/alihamzaranjha.jpg')}}" class="img-fluid rounded-top w-100" alt="">
+                                <img src="{{ asset('public/assets/frontend/img/alihamzaranjha.jpg')}}" class="img-fluid rounded-top w-100" alt="">
                                 <div class="team-icon">
                                     <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
@@ -441,7 +441,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="{{ asset('assets/frontend/img/sidhu.jpeg')}}" class="img-fluid rounded-top w-100" alt="">
+                                <img src="{{ asset('public/assets/frontend/img/sidhu.jpeg')}}" class="img-fluid rounded-top w-100" alt="">
                                 <div class="team-icon">
                                     <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
@@ -458,7 +458,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="{{ asset('assets/frontend/img/bohemia.jpeg')}}" class="img-fluid rounded-top w-100" alt="">
+                                <img src="{{ asset('public/assets/frontend/img/bohemia.jpeg')}}" class="img-fluid rounded-top w-100" alt="">
                                 <div class="team-icon">
                                     <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
@@ -475,7 +475,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="{{ asset('assets/frontend/img/CarryMinati.jpeg')}}" class="img-fluid rounded-top w-100" alt="">
+                                <img src="{{ asset('public/assets/frontend/img/CarryMinati.jpeg')}}" class="img-fluid rounded-top w-100" alt="">
                                 <div class="team-icon">
                                     <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
@@ -508,7 +508,7 @@
                         <div class="row g-0">
                             <div class="col-4  col-lg-4 col-xl-3">
                                 <div class="h-100">
-                                    <img src="{{ asset('assets/frontend/img/testimonial-1.jpg')}}" class="img-fluid h-100 rounded" style="object-fit: cover;" alt="">
+                                    <img src="{{ asset('public/assets/frontend/img/testimonial-1.jpg')}}" class="img-fluid h-100 rounded" style="object-fit: cover;" alt="">
                                 </div>
                             </div>
                             <div class="col-8 col-lg-8 col-xl-9">
@@ -532,7 +532,7 @@
                         <div class="row g-0">
                             <div class="col-4  col-lg-4 col-xl-3">
                                 <div class="h-100">
-                                    <img src="{{ asset('assets/frontend/img/testimonial-2.jpg')}}" class="img-fluid h-100 rounded" style="object-fit: cover;" alt="">
+                                    <img src="{{ asset('public/assets/frontend/img/testimonial-2.jpg')}}" class="img-fluid h-100 rounded" style="object-fit: cover;" alt="">
                                 </div>
                             </div>
                             <div class="col-8 col-lg-8 col-xl-9">
@@ -556,7 +556,7 @@
                         <div class="row g-0">
                             <div class="col-4  col-lg-4 col-xl-3">
                                 <div class="h-100">
-                                    <img src="{{ asset('assets/frontend/img/testimonial-3.jpg')}}" class="img-fluid h-100 rounded" style="object-fit: cover;" alt="">
+                                    <img src="{{ asset('public/assets/frontend/img/testimonial-3.jpg')}}" class="img-fluid h-100 rounded" style="object-fit: cover;" alt="">
                                 </div>
                             </div>
                             <div class="col-8 col-lg-8 col-xl-9">

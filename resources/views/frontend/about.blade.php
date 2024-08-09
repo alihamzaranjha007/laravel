@@ -15,7 +15,7 @@
                 <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                     <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
                     <li class="breadcrumb-item active text-primary">About</li>
-                </ol>    
+                </ol>
             </div>
         </div>
         <!-- Header End -->
@@ -42,7 +42,7 @@
                             <div class="row g-4 justify-content-center">
                                 <div class="col-12">
                                     <div class="rounded bg-light">
-                                        <img src="{{ asset('assets/frontend/img/about-1.png')}}" class="img-fluid rounded w-100" alt="">
+                                        <img src="{{ asset('public/assets/frontend/img/about-1.png')}}" class="img-fluid rounded w-100" alt="">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
@@ -200,7 +200,7 @@
                         </div>
                     </div>
                     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
-                        <img src="{{ asset('assets/frontend/img/carousel-2.png')}}" class="img-fluid w-100" alt="">
+                        <img src="{{ asset('public/assets/frontend/img/carousel-2.png')}}" class="img-fluid w-100" alt="">
                     </div>
                 </div>
             </div>
@@ -221,7 +221,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="{{ asset('assets/frontend/img/alihamzaranjha.jpg')}}" class="img-fluid rounded-top w-100" alt="">
+                                <img src="{{ asset('public/assets/frontend/img/alihamzaranjha.jpg')}}" class="img-fluid rounded-top w-100" alt="">
                                 <div class="team-icon">
                                     <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
@@ -238,7 +238,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="{{ asset('assets/frontend/img/sidhu.jpeg')}}" class="img-fluid rounded-top w-100" alt="">
+                                <img src="{{ asset('public/assets/frontend/img/sidhu.jpeg')}}" class="img-fluid rounded-top w-100" alt="">
                                 <div class="team-icon">
                                     <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
@@ -255,7 +255,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="{{ asset('assets/frontend/img/bohemia.jpeg')}}" class="img-fluid rounded-top w-100" alt="">
+                                <img src="{{ asset('public/assets/frontend/img/bohemia.jpeg')}}" class="img-fluid rounded-top w-100" alt="">
                                 <div class="team-icon">
                                     <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
@@ -272,7 +272,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="{{ asset('assets/frontend/img/CarryMinati.jpeg')}}" class="img-fluid rounded-top w-100" alt="">
+                                <img src="{{ asset('public/assets/frontend/img/CarryMinati.jpeg')}}" class="img-fluid rounded-top w-100" alt="">
                                 <div class="team-icon">
                                     <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>

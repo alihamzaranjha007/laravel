@@ -15,7 +15,7 @@
                 <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                     <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
                     <li class="breadcrumb-item active text-primary">Service</li>
-                </ol>    
+                </ol>
             </div>
         </div>
         <!-- Header End -->
@@ -34,7 +34,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="{{ asset('assets/frontend/img/blog-1.png')}}" class="img-fluid rounded-top w-100" alt="">
+                                <img src="{{ asset('public/assets/frontend/img/blog-1.png')}}" class="img-fluid rounded-top w-100" alt="">
                                 <div class="service-icon p-3">
                                     <i class="fa fa-users fa-2x"></i>
                                 </div>
@@ -51,7 +51,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="{{ asset('assets/frontend/img/blog-2.png')}}" class="img-fluid rounded-top w-100" alt="">
+                                <img src="{{ asset('public/assets/frontend/img/blog-2.png')}}" class="img-fluid rounded-top w-100" alt="">
                                 <div class="service-icon p-3">
                                     <i class="fa fa-hospital fa-2x"></i>
                                 </div>
@@ -68,7 +68,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="{{ asset('assets/frontend/img/blog-3.png')}}" class="img-fluid rounded-top w-100" alt="">
+                                <img src="{{ asset('public/assets/frontend/img/blog-3.png')}}" class="img-fluid rounded-top w-100" alt="">
                                 <div class="service-icon p-3">
                                     <i class="fa fa-car fa-2x"></i>
                                 </div>
@@ -85,7 +85,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="{{ asset('assets/frontend/img/blog-4.png')}}" class="img-fluid rounded-top w-100" alt="">
+                                <img src="{{ asset('public/assets/frontend/img/blog-4.png')}}" class="img-fluid rounded-top w-100" alt="">
                                 <div class="service-icon p-3">
                                     <i class="fa fa-home fa-2x"></i>
                                 </div>
@@ -122,7 +122,7 @@
                         <div class="row g-0">
                             <div class="col-4  col-lg-4 col-xl-3">
                                 <div class="h-100">
-                                    <img src="{{ asset('assets/frontend/img/testimonial-1.jpg')}}" class="img-fluid h-100 rounded" style="object-fit: cover;" alt="">
+                                    <img src="{{ asset('public/assets/frontend/img/testimonial-1.jpg')}}" class="img-fluid h-100 rounded" style="object-fit: cover;" alt="">
                                 </div>
                             </div>
                             <div class="col-8 col-lg-8 col-xl-9">
@@ -146,7 +146,7 @@
                         <div class="row g-0">
                             <div class="col-4  col-lg-4 col-xl-3">
                                 <div class="h-100">
-                                    <img src="{{ asset('assets/frontend/img/testimonial-2.jpg')}}" class="img-fluid h-100 rounded" style="object-fit: cover;" alt="">
+                                    <img src="{{ asset('public/assets/frontend/img/testimonial-2.jpg')}}" class="img-fluid h-100 rounded" style="object-fit: cover;" alt="">
                                 </div>
                             </div>
                             <div class="col-8 col-lg-8 col-xl-9">
@@ -170,7 +170,7 @@
                         <div class="row g-0">
                             <div class="col-4  col-lg-4 col-xl-3">
                                 <div class="h-100">
-                                    <img src="{{ asset('assets/frontend/img/testimonial-3.jpg')}}" class="img-fluid h-100 rounded" style="object-fit: cover;" alt="">
+                                    <img src="{{ asset('public/assets/frontend/img/testimonial-3.jpg')}}" class="img-fluid h-100 rounded" style="object-fit: cover;" alt="">
                                 </div>
                             </div>
                             <div class="col-8 col-lg-8 col-xl-9">

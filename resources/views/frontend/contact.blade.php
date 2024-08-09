@@ -15,7 +15,7 @@
                 <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                     <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
                     <li class="breadcrumb-item active text-primary">Contact</li>
-                </ol>    
+                </ol>
             </div>
         </div>
         <!-- Header End -->
@@ -32,7 +32,7 @@
                     <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="contact-img d-flex justify-content-center" >
                             <div class="contact-img-inner">
-                                <img src="{{ asset('assets/frontend/img/contact-img.png')}}" class="img-fluid w-100"  alt="Image">
+                                <img src="{{ asset('public/assets/frontend/img/contact-img.png')}}" class="img-fluid w-100"  alt="Image">
                             </div>
                         </div>
                     </div>
@@ -138,8 +138,8 @@
                     </div>
                     <div class="col-12 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="rounded">
-                            <iframe class="rounded w-100" 
-                            style="height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217759.99380853778!2d74.3343893!3d31.482940349999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore%2C%20Punjab!5e0!3m2!1sen!2s!4v1722686156003!5m2!1sen!2s" width="600" 
+                            <iframe class="rounded w-100"
+                            style="height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217759.99380853778!2d74.3343893!3d31.482940349999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore%2C%20Punjab!5e0!3m2!1sen!2s!4v1722686156003!5m2!1sen!2s" width="600"
                             loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
@@ -147,5 +147,5 @@
             </div>
         </div>
         <!-- Contact End -->
-    
+
 @endsection
