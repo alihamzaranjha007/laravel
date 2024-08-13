@@ -4,6 +4,7 @@ namespace App\Http\Controllers\frontend;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class loginController extends Controller
 {
@@ -22,6 +23,7 @@ class loginController extends Controller
     public function create()
     {
         //
+        echo 'Creating';
     }
 
     /**
@@ -30,6 +32,18 @@ class loginController extends Controller
     public function store(Request $request)
     {
         //
+        echo 'Storing <br/>';
+        $uri = $request->path();
+        echo '<br>URI: '.$uri;
+
+        $url = $request->url();
+        echo '<br>';
+
+        echo 'URL: '.$url;
+        $method = $request->method();
+        echo '<br>';
+
+        echo 'Method: '.$method;
     }
 
     /**
@@ -38,6 +52,8 @@ class loginController extends Controller
     public function show(string $id)
     {
         //
+        echo 'Showing: ';
+        echo $id;
     }
 
     /**
@@ -46,6 +62,8 @@ class loginController extends Controller
     public function edit(string $id)
     {
         //
+        echo 'Editing: ';
+        echo $id;
     }
 
     /**
@@ -54,6 +72,8 @@ class loginController extends Controller
     public function update(Request $request, string $id)
     {
         //
+        echo 'Updating: ';
+        echo $id;
     }
 
     /**
@@ -62,5 +82,19 @@ class loginController extends Controller
     public function destroy(string $id)
     {
         //
+        echo 'Deleting: ';
+        echo $id;
+    }
+
+    //custom functions for login
+    public function login(Request $request){
+        $credentials = $request->validate(
+            ['email' =>'required|email',
+            'password' => 'required|min:8']
+        );
+
+        if($credentials){
+            return view('admin.index');
+        }
     }
 }

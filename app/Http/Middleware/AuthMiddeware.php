@@ -11,16 +11,16 @@ class AuthMiddeware
 {
     public function handle(Request $request, Closure $next): Response
     {
-    
+
 
 
         // condition ? true : false
-
-
-        return (Auth::check() && Auth::user()->is_admin == 1) ?  $next($request) : abort($request);
+        //dd($request->all());
+        return (Auth::check() && Auth::user()->is_admin == 1) ?  $next($request) : route('login.index');
+        //return (Auth::check() && Auth::user()->is_admin == 1) ?  $next($request) : abort($request);
 
 
         // dd($request->all());
-        
+
     }
 }

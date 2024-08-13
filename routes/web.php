@@ -27,19 +27,16 @@ Route::get('/contact', function () {
 
     // Admin path / routes
 
-// Route::prefix('admin/')->middleware(['auth'])->as('admin.')->group(function(){
+ Route::prefix('admin/')->middleware(['is_admin'])->as('admin.')->group(function(){
 
-Route::group(['prefix'=> 'admin/', 'middleware'=> ['auth', 'is_admin'], 'as'=>'admin.'], function () {
+//Route::group(['prefix'=> 'admin/', 'middleware'=> ['auth', 'is_admin'], 'as'=>'admin.'], function () {
     Route::get('/dashboard', function () {
         return view('admin.index');
         })->name('dashboard');
-
-    // Route::get('/login', function () {
-    //     return view('login');
-    //     });
 });
 
 
  Route::resource('/login',loginController::class);
-//Route::resource('/login',loginController::class);
- Route::get('/login',[loginController::class,'index'])->name('login.frontend');
+
+
+ Route::get('/login',[loginController::class,'index'])->name('login.index');
